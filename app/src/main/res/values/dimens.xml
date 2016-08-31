@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="action_bar">40dp</dimen>
+    <dimen name="default_distance">5dp</dimen>
+    <dimen name="margin_image_to_parent_1">10dp</dimen>
+    <dimen name="margin_image_to_parent_2">15dp</dimen>
+    <dimen name="margin_image_to_parent_3">20dp</dimen>
+    <dimen name="text_view_padding_big">11dp</dimen>
+    <dimen name="text_view_padding">7dp</dimen>
+    <dimen name="text_view_padding_small">3dp</dimen>
+    <dimen name="divider_1">1dp</dimen>
+    <dimen name="divider_2">2dp</dimen>
+    <dimen name="divider_3">3dp</dimen>
+    <dimen name="list_view_divider">8dp</dimen>
+    <dimen name="indicator_height">3dp</dimen>
+    <dimen name="home_item_iv_height">160dp</dimen>
+    <dimen name="home_first_header_height">160dp</dimen>
+    <dimen name="home_second_header_height">100dp</dimen>
+    <dimen name="home_hsv_width">80dp</dimen>
+
+    <dimen name="bottom_text_size">10sp</dimen>
+    <dimen name="text_size_1">12sp</dimen>
+    <dimen name="text_size_2">15sp</dimen>
+    <dimen name="text_size_3">18sp</dimen>
+    <dimen name="text_size_4">21sp</dimen>
+    <dimen name="text_size_5">24sp</dimen>
+    <dimen name="text_size_6">27sp</dimen>
+
+    <dimen name="radius_1">3dp</dimen>
+
+    <dimen name="author_iv_layout">25dp</dimen>
+    <dimen name="date_dash_width">20dp</dimen>
+    <dimen name="tab_width">90dp</dimen>
+    <dimen name="tab_height">45dp</dimen>
+
+    <dimen name="dot_margin">15dp</dimen>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zyx.group14.android1603.gifttalkniban.custom.MyRefreshListView
+        android:id="@+id/home_vp_item_mrlv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:dividerHeight="0dp" />
+        <!--android:headerDividersEnabled="false"-->
+        <!--android:footerDividersEnabled="false"-->
+        <!--android:dividerHeight="@dimen/list_view_divider"-->
+        <!--android:background="@color/listViewBack"/>-->
+
+</LinearLayout>

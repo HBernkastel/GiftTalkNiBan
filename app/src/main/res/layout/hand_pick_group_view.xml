@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/hand_pick_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/text_view_padding_big">
+        <View
+            android:layout_width="@dimen/date_dash_width"
+            android:layout_height="@dimen/divider_1"
+            android:layout_gravity="center_vertical"
+            android:background="@color/divider"/>
+        <TextView
+            android:id="@+id/hand_pick_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8月31日 星期三"
+            android:textSize="@dimen/text_size_2"
+            android:layout_marginStart="@dimen/text_view_padding_big"/>
+        <View
+            android:layout_width="@dimen/date_dash_width"
+            android:layout_height="@dimen/divider_1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/text_view_padding_big"
+            android:background="@color/divider"/>
+        
+    </LinearLayout>
+    <TextView
+        android:id="@+id/hand_pick_update_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下次更新 11:00"
+        android:textSize="@dimen/bottom_text_size"
+        android:visibility="gone"
+        android:textColor="@color/actionBar"
+        android:layout_below="@id/hand_pick_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/text_view_padding_big"/>
+    <View
+        android:background="@color/listViewBack"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_1"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
